@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_section_grids",
+  "info": {
+    "name": "section-grid",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "text_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.text-grid"
+    },
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
